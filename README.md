@@ -1,6 +1,6 @@
 # Haskell-Work
 
-Hello future me! This reposatory is from the few books that I am about the haskell programming language. 
+Hello future me! This reposatory is from the few books that I am reading about the haskell programming language. 
 
 Book 1: Programming in Haskell  
 Book 2: Haskell in Depth  
