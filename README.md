@@ -4,7 +4,7 @@ Hello future me! This reposatory is from the few books that I am reading about t
 
 Book 1: Programming in Haskell  
 Book 2: Haskell in Depth  
-Book 3: Real World Haskell, https://book.realworldhaskell.org/ 
+Book 3: Real World Haskell, https://book.realworldhaskell.org/   
 Book 4: Haskell Programming from First Principles (best book, by far)
 Website 1: haskell.com  
 Website 2: Learn you a haskell for great good   
