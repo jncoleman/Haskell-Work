@@ -16,3 +16,4 @@ main = do
     putStr secondGreeting 
       where secondGreeting = 
               (++) hello ((++) " " world)
+--indentation matters, this did not work without all of the spaces
