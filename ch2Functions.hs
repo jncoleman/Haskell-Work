@@ -7,7 +7,7 @@ e = exp 1
 
 -- define a function
 square :: Double -> Double
-square squareThis = squareThis**2
+square squareThis = squareThis ** 2
 
 cube :: Float -> Float
 cube cubeThis = cubeThis ** 3
