@@ -75,3 +75,22 @@ cosFunFour radians = (cos . square) radians
 -- simpler form of composition of functions
 cosFunFive :: Double -> Double
 cosFunFive = cos . square
+
+-- normal style of function
+aabs :: Double -> Double
+aabs number = abs number
+
+-- point-free style of function
+aabs2 :: Double -> Double
+aabs2 = abs
+
+invCub :: Double -> Double
+invCub num = 1 / (num ^ 3)
+
+num2g :: Double -> Double
+num2g num = (invCub . aabs2) num 
+
+-- point-free style
+num2g2 :: Double -> Double
+num2g2 = invCub . aabs 
+
