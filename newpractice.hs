@@ -8,4 +8,5 @@ secondString :: String
 secondString = "No it is now "
 
 main :: IO ()
+main = do
     print "Something is happening"

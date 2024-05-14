@@ -5,9 +5,9 @@ data Mood = Blah | Woot deriving Show
 data Mood2 = G | B deriving Show
 
 -- PATTERN MATCHING
--- we define a function by matchon on a data constructor, or value,
+-- we define a function by matching on a data constructor, or value,
 -- and describing the behavior that the function should have vased on which value it matches
--- the underscore denotes a catch all case, otherwise
+-- the underscore denotes a catch all case, i.e. otherwise
 changeMood :: Mood -> Mood
 changeMood value = Woot
 changeMood     _ = Blah
